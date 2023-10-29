@@ -6,7 +6,7 @@ body{
     width: 100%;
     background: url(1547aa8f54dd1fb3694abee485c3269a.jpg) no-repeat center center/cover;
    height: 70vh;
-   backdrop-filter: blur(1vh);
+   backdrop-filter: blur(0.5vh);
 }
 .google{
     display: flex;
@@ -15,14 +15,14 @@ body{
     display: none;
     transform: translate(-1vh,-43vh);
     }
-.google,.google1{
+/* .google,.google1{
     margin-left: 17vh;
     margin-top: 2vh;
     border: 0.25vh solid #142434;
     padding: 0.25vh;
     border-radius: 1.5rem;
     transition: 100ms;
-}
+} */
 p{
     padding: 2vh;
 }
@@ -47,18 +47,19 @@ p{
 input{
     font-family: 'Times New Roman', Times, serif;
     font-size: 3vh;
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
+    outline: none;
     border:none;
-    margin:1vh;
+    margin:2vh;
     border-bottom: #142434 0.25vh solid;
     color:#142434 ;
-    width: 38vh;
-    outline: none;
+    width: 49vh;
+    
 }
-.email{
+/* .email{
    margin-left: 7.5vh;
-}
+} */
 form{
    margin: 1vh;
    color:#142434 ;
@@ -76,20 +77,20 @@ label{
 }
 .button{
     margin-left: 22vh;
-    margin-top: 5vh;
+    margin-top: 10vh;
     height: 6vh;
     width: 21vh;
     border: none;
     border-radius: 1.2rem;
     color: aliceblue;
-    background-color: #0f1e25;
+    background-color: #0a272b;
     transition: 100ms;
     font-size: 3vh;
 }
 .registered{
     display: flex;
     justify-content: space-between;
-    margin-top: 1vh;
+    margin-top: 8vh;
     padding: 1vh;
     background-color: #55986c;
     height: 7vh;

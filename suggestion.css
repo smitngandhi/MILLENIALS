@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(suggestion-background.jpg) no-repeat center center/cover;
+  height: 100vh;
+ 
+}
+.clickme {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: 2px solid white;
+  padding: 15px;
+  width: 310px;
+  font-size: 2rem;
+  text-align: center;
+  color: aliceblue;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  transition: all 0.5s;
+}
+.clickme:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: black;
+  border-color: black;
+}
+.main-content {
+  display: none;
+}
+@keyframes popdown {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    top: 30%;
+  }
+}
+.content {
+  position: relative;
+  animation: popdown;
+  animation-duration: 1s;
+  background: white;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  letter-spacing: 2px;
+  width: 300px;
+  height: 50px;
+  border-radius: 1rem;
+}
+.close {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: lightgreen;
+}
+.close:hover {
+  cursor: pointer;
+}
+textarea
+{
+  word-wrap: break-word;
+  position: relative;
+}
