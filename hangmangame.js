@@ -5,11 +5,12 @@ const counttime = document.querySelector('.timer');
 const keyboardDiv = document.querySelector(".keyboard");
 let correctone = document.querySelector(".correct-one");
 let currentWord;
+//console.log(currentWord);
 let wrongguesscount = 0;
 const countaudio = new Audio();
 countaudio.src = "timer.m4a"
 const audio = new Audio();
-audio.src = "click.mp3"
+audio.src = "hangmanclick.mp3"
 const vaudio = new Audio();
 vaudio.src = "win.mp3"
 const laudio = new Audio();
