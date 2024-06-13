@@ -22,7 +22,7 @@
       }
       else
       {
-         window.open("login.html","_self")
+         window.open("index.html","_self")
       }
    }
    function openfile()
@@ -59,7 +59,7 @@
       else if(emailforget===localStorage.getItem(nameforget))
       {
          alert("Your password is "+localStorage.getItem(emailforget))
-         window.open("login.html","_self")
+         window.open("index.html","_self")
       }
       else{
          alert("Either entered email or passsword is not matching with the user details!!!")
